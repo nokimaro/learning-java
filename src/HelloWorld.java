@@ -1,9 +1,12 @@
-import fish.fish;
-
 public class HelloWorld {
     public static void main(String[] args) {
-        String testVariable = "hello";
-        System.out.println("Hello world from Intellij");
-        fish.ugh();
+        int john[] = {1, 2, 3, 4, 5};
+        int sum = 0;
+
+        for(int i : john) {
+            sum += i;
+        }
+
+        System.out.println("The sum of these numbers is: " + sum);
     }
 }
