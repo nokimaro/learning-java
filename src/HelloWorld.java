@@ -1,7 +1,15 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        int firstArray[][] = {{1,2,3,4,5,6,7}, {8,9,10,11,12,13}};
+        System.out.println(average(39,49,393,29,404,493,2939));
+      }
 
-        System.out.println(firstArray[0][1]);
+      public static int average(int...numbers) {
+        int total = 0;
+        for(int i : numbers) {
+            total += i;
+        }
+
+        return total/numbers.length;
+
       }
     }
