@@ -25,4 +25,9 @@ public enum tuna {
     public String getDesc2() {
         return desc2;
     }
+//
+//    @Override
+//    public String toString() {
+//        return getDesc();
+//    }
 }
