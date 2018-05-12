@@ -13,6 +13,8 @@ public class main {
 
         for(tuna people : EnumSet.range(tuna.IDEA, tuna.LEEDLELEEDLELEEDLELEE)) {
             System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getDesc2());
+
         }
+
     }
 }
